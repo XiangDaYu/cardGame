@@ -1,0 +1,115 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "insider game",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [
+                        {
+                            "name": "Color",
+                            "type": "INSIDER_CORLOR"
+                        },
+                        {
+                            "name": "Rotation",
+                            "type": "INSIDER_ROTATION"
+                        }
+                    ],
+                    "samples": [
+                        "color",
+                        "rotation",
+                        "tell me about color",
+                        "tell me about rotation"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "start a quiz",
+                        "start a quiz game",
+                        "and start a quiz",
+                        "and quiz me",
+                        "for a quiz",
+                        "a quiz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "INSIDER_COLOR",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "black"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "red"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "green"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "INSIDER_ROTATION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "90"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "-90"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "INSIDER_CORLOR",
+                    "values": []
+                }
+            ]
+        }
+    }
+}
